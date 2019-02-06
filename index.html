@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>David T. Juarez Jr. | Portfolio</title>
+
+     <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+     <!-- Javascript -->
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+   
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<!-- Reset CSS -->
+   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+   <!-- Style CSS -->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+    <!-- Bootstrap JS Link -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    
+</head>
+<body>
+
+   
+
+    <video class="video" autoplay muted loop>    <source src="./assets/images/AerialOcean.mp4" type="video/mp4">;
+    </video>
+    
+        <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link ml-auto" href="./assets/files/DjResume.pdf" target="_blank">RESUME <span class="sr-only"></span></a>
+                        <a class="nav-item navbar-text nav-link ml-auto" href="#about">ABOUT</a>
+                        <a class="nav-item nav-link ml-auto" href="#work">PROJECTS</a>
+                        <a class="nav-item nav-link ml-auto" href="#contact">CONTACT</a>
+                        
+                    </div>
+                </div>
+        </nav> -->
+  
+        <div class="topnav" id="navDiv">
+                <a class="" href="./assets/files/DjResume.pdf" target="_blank">RESUME</a>
+                <a class="" href="#about">ABOUT</a>
+                <a class="" href="#work">PROJECTS</a>
+                <a class=" " href="#contact">CONTACT</a>
+                <a href="javascript:void(0);" class="icon" onclick="menuClick()"><i class="fa fa-bars"></i></a>
+                
+                
+                
+                
+                
+        </div>
+
+    <div class="container-fluid">
+        <!-- <div class="row">
+                
+        </div> -->
+        
+
+        <div class="row" id="topEmpty">
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <span id="name">David T. Juárez Jr.</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <span id="occ-title">Full Stack Web Developer</span>  
+            </div>
+        </div>
+        <div class="row" id="about">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="text-center">
+                        <img class="rounded-circle center-block" id="profileImg" src="assets/images/IMG_7920.jpg">
+                </div>
+                
+                <h4 class="text-center">ABOUT</h4>
+        
+                <p class="text-center">Elevating the world one idea at a time.</p>
+                <p class="text-center">I  build apps for the future.</p>
+
+            </div>
+            <div class="col-md-4"></div>  
+        </div>
+
+        <div class="row" id="skills">
+            <div class="col-md-12">
+                <h4 class="text-center">SKILLS</h4><br>
+                <p class="text-center">HTML, CSS, Javascript, jQuery, Bootstrap, Github, Firebase, Express, Node.js, MySQL, MongoDB, React.js, ProTools, Ableton Live</p>
+            </div>
+        </div>
+
+        <div class="row" id="work">
+            <div class="col-md-12">
+                <h4 class="text-center">PROJECTS</h4><br>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <h5> VIKI</h5>
+                        <img class="rounded-pill" id="VIKI" onclick=vikiClick() src="assets/images/VIKI-Keyboard.png">
+                    </div>
+  
+
+
+                    <div class="col-md-4 text-center">
+                        <h5>Secret Supper Club</h5>
+                        <img class="rounded-pill" id="supperClub" src="assets/images/supperClub.png">
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h5>MentorUp</h5>
+                        <img class="rounded-pill" id="mentorUP" src="assets/images/MentorUp-screenshot.png">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="contact">
+            <div class="col-md-12">
+                <h4 class="text-center">CONTACT</h4>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Austin,TX</p>
+                        <p>(512) 289-8126</p>
+                        <p>Email: djuarez1003@gmail.com</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+
+                </div>
+            </div>
+        </div>
+    
+        <div class="row" id="backBtn">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center ">
+                    <a href="#topEmpty"><button type="button" class="btn btn-outline-secondary "><i class="fa fa-arrow-up w3-margin-right"></i>  Back to top</button></a>
+                </div>
+                <div class="col-md-4"></div>
+
+            
+                
+        </div>
+        
+
+
+    </div>
+    
+
+<script>
+   
+
+   function menuClick() {
+  var x = document.getElementById("navDiv");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+
+  console.log(x.className);
+}
+</script>
+
+
+</body>
+</html>
