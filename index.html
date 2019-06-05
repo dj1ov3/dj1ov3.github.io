@@ -12,8 +12,7 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-     <!-- Javascript -->
-  <script type="text/javascript" src="assets/javascript/app.js"></script>
+     
 
    
     <!-- Bootstrap CSS -->
@@ -28,6 +27,8 @@
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 
     
@@ -113,23 +114,46 @@
             <div class="col-md-12">
                 <h4 class="text-center">PROJECTS</h4><br>
                 <div class="row">
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 text-center projects">
                         <h5>Discussion Dashboard</h5>
-                        <a href="https://morningcoffeediscussions.herokuapp.com/" target="_blank"><img class="rounded-pill" id="mentorUP" src="assets/images/dashboard.png">  </a> 
+                        <a  data-toggle="collapse" href="#dashCollapse" role="button" aria-expanded="false" aria-controls="dashCollapse" ><img class="rounded-pill" id="mentorUP" src="assets/images/dashboard.png"></a> 
+                        <div class="collapse" id="dashCollapse">
+                            <div class="card card-body">
+                              Real time discussion board built with Node.js and Socket.io. Features automatic table sorting based on opinion, upvote/downvote badges, and Admin controls.
+                              <a href="https://morningcoffeediscussions.herokuapp.com/" target="_blank">Visit page </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 text-center projects">
                         <h5> VIKI</h5>
-                        <a href="https://tenillez.github.io/Project1-MusicPaint/index.html" target="_blank"><img class="rounded-pill" id="VIKI" onclick=vikiClick() src="assets/images/VIKI-Keyboard.png"></a>
-                        
+                        <a data-toggle="collapse" href="#vikiCollapse" role="button" aria-expanded="false" aria-controls="vikiCollapse"><img class="rounded-pill" id="VIKI" src="assets/images/VIKI-Keyboard.png"></a>
+                        <div class="collapse" id="vikiCollapse">
+                            <div class="card card-body">
+                              Vitrual Internet Keyboard Instructor. Built with Tone.js, YouTube API, and Firebase. Created to teach anyone how to play the piano using their own computer. You can play along to YouTube tutorials online or simply mess around and find some inspiration. The keyboard features different sounds you can pick for different styles of music.
+                              <a href="https://tenillez.github.io/Project1-MusicPaint/index.html" target="_blank">Visit page </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 text-center projects">
                         <h5>Secret Supper Club</h5>
-                        <a href="https://stark-bayou-89637.herokuapp.com/" target="_blank"><img class="rounded-pill" id="supperClub" src="assets/images/supperClub.png"></a>
-                        
+                        <a data-toggle="collapse" href="#supperCollapse" role="button" aria-expanded="false" aria-controls="supperCollapse"><img class="rounded-pill" id="supperClub" src="assets/images/supperClub.png"></a>
+                        <div class="collapse" id="supperCollapse">
+                            <div class="card card-body">
+                              A site built using the MERN Stack along with Passport.js for authentication. Allows you to find a private dinner group or set up your own with custom entr&eacute;es based on the chef or your own choosing. 
+                              <a href="https://stark-bayou-89637.herokuapp.com/" target="_blank">Visit page </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3 text-center projects">
                         <h5>MentorUp</h5>
-                        <a href="https://agile-caverns-57821.herokuapp.com/" target="_blank"><img class="rounded-pill" id="mentorUP" src="assets/images/MentorUp-screenshot.png">  </a>
+                        <a data-toggle="collapse" href="#mentorCollapse" role="button" aria-expanded="false" aria-controls="mentorCollapse"><img class="rounded-pill" id="mentorUP" src="assets/images/MentorUp-screenshot.png">  </a>
+                        <div class="collapse" id="mentorCollapse">
+                            <div class="card card-body">
+                                MERN stack application aimed at encouraging women in tech to seek out mentorship. Users create an account and proceed to take a personality/matching questionnaire to find a mentor or mentee.Once paired, mentors & mentees have many options to communicate with each other through the app including chat, notes and goals residing in the Account page and video conferencing services such as Zoom, Google Hangouts, and Skype
+                                Our community page gives users access to Meetups in the Austin area pertaining to women in tech via the MeetUp API.
+                              <a href="https://agile-caverns-57821.herokuapp.com/" target="_blank">Visit page </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
